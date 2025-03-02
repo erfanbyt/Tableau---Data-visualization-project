@@ -1,0 +1,1 @@
+SELECT count(id) as total_loan_applications from loan_tb 

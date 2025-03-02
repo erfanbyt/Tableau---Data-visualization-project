@@ -1,0 +1,1 @@
+select sum(total_payment) as total_amount_collected from loan_tb

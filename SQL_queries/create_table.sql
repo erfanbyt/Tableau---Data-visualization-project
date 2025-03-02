@@ -1,0 +1,27 @@
+DROP TABLE IF EXISTS loan_tb;
+CREATE TABLE loan_tb (
+    id INT PRIMARY KEY,
+    address_state VARCHAR(100),
+    application_type VARCHAR(100),
+    emp_length VARCHAR(100),
+    emp_title VARCHAR(100) NULL,
+    grade VARCHAR(100),
+    home_ownership VARCHAR(100),
+    issue_date DATE,
+    last_credit_pull_date DATE,
+    last_payment_date DATE,
+    loan_status VARCHAR(100),
+    next_payment_date DATE,
+    member_id FLOAT,
+    purpose VARCHAR(100),
+    sub_grade VARCHAR(100),
+    term VARCHAR(100),
+    verification_status VARCHAR(100),
+    annual_income FLOAT,
+    dti FLOAT,
+    installment FLOAT,
+    int_rate FLOAT,
+    loan_amount INT,
+    total_acc INT,
+    total_payment INT
+);
